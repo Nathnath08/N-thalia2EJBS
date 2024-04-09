@@ -1,6 +1,14 @@
-{
+*{
     margin: 0;
     padding: 0;
+}
+
+.mamografia{
+    background-image: linear-gradient(blueviolet,#FFFFFF);
+    height: 500px;
+    padding: 100px;
+    color: #FFFFFF;
+    display: flex;
 }
 
 .cabecalho{
@@ -8,6 +16,10 @@
 display: flex;
 justify-content: space-around;
 
+}
+
+.somos-quem{ 
+    padding: 20px;
 }
 
 .lista-cabecalho{
@@ -18,4 +30,12 @@ justify-content: space-around;
 
 .lista-item{ 
     display: inline-block;
+}
+
+.primeiro-paragrafo{
+    padding: 15px;
+}
+
+.foto-estudante {
+    width: 15%;
 }
