@@ -4,18 +4,24 @@
 }
 
 .mamografia{
-    background-image: linear-gradient(blueviolet,#FFFFFF);
+    background-image: linear-gradient(rgb(106, 68, 141),#FFFFFF);
     height: 500px;
     padding: 100px;
     color: #FFFFFF;
     display: flex;
+    justify-content: center;
 }
 
 .cabecalho{
-    background-color: blueviolet;
+    background-color: rgb(106, 68, 141);
 display: flex;
 justify-content: space-around;
 
+}
+
+.textos {
+    width: 35%;
+    padding: 15px;
 }
 
 .somos-quem{ 
@@ -24,18 +30,23 @@ justify-content: space-around;
 
 .lista-cabecalho{
  color: cornsilk;
-     front: size 70px;
-
+ font-size: 30px;
+ display: flex;
+ align-items: center    ;
 }
 
 .lista-item{ 
     display: inline-block;
+    padding: 0 12px;
 }
-
+.presentin, .segundo-paragrafo{
+    padding: 10px 0;
+}
 .primeiro-paragrafo{
-    padding: 15px;
+    padding: 30px;
 }
 
 .foto-estudante {
-    width: 15%;
+    width: 40%;
+    
 }
