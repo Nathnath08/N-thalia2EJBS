@@ -4,7 +4,7 @@
 }
 
 .mamografia{
-    background-image: linear-gradient(rgb(106, 68, 141),#FFFFFF);
+    background-image: linear-gradient(rgb(91, 30, 148),rgb(145, 107, 180));
     height: 500px;
     padding: 100px;
     color: #FFFFFF;
@@ -13,7 +13,7 @@
 }
 
 .cabecalho{
-    background-color: rgb(106, 68, 141);
+    background-color: rgb(91, 30, 148);
 display: flex;
 justify-content: space-around;
 
@@ -49,4 +49,15 @@ justify-content: space-around;
 .foto-estudante {
     width: 40%;
     
+}
+
+.foto-doestudante {
+    width: 25%;
+
+}
+
+.imagem-icone {
+    width: 30px;
+
+
 }
